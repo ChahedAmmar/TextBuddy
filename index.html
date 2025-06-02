@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unchaos</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unchaos</h1>
+        <h2>Accessibility Modes</h2>
+        <button id="Dyslexia">Dyslexia Mode</button>
+        <button id="Cblind">ColorBlind Mode</button>
+         <h2>Text Customization</h2>
+         <label id="fontL" for="font">Font:</label>
+         <select id="font">
+           <option value="Arial, sans-serif">Arial</option>
+  <option value="'Courier New', monospace">Courier New</option>
+  <option value="'Times New Roman', serif">Times New Roman</option>
+  <option value="'Open Dyslexic', sans-serif">Open Dyslexic</option>
+            <option value="Verdana">Verdana</option>
+        </select>
+        <button id="bold-btn">Bold</button>
+
+        <label for="fontSize">Font Size:</label>
+        <input type="range" id="fontSize" min="10" max="30" value="16">
+        <label for="spacing">Font spacing:</label>
+        <input type="range" id="spacing" min="0" max="5" value="1" step="0.1">
+
+       <button type="reset" id="reset">Reset</button>
+        <h2>Text Tools</h2>
+        <button id="simplify">Simplify text</button>
+        <button id="speech">text-to-speech</button>
+        <h2>Text Highlighting</h2>
+        <label for="highlightColor">Highlight Color:</label>
+        <input type="color" id="highlightColor" value="#FFFF00">
+        <button id="highlight">Highlight Text</button>
+        <label for="lang">Translate to :</label>
+         <select id="lang">
+            <option value="French">French</option>
+            <option value="French">French</option>
+            <option value="Arabic">Arabic</option>
+            <option value="English">English</option>
+            <option value="Spanish">Spanish</option>
+            <option value="German">German</option>
+        </select>
+        <h2>Speech Settings</h2>
+        <label for="rate">Speech rate :</label>
+        <input type="range" id="rate" min="0.5" max="2" value="1" step="0.1">
+
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
