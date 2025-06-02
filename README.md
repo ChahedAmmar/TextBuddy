@@ -1,6 +1,6 @@
 # TextBuddy- - Accessibility Chrome Extension
 TextBuddy is a Chrome extension that helps you interact with web content more effectively. Select any text to summarize, translate, or listen to it with AI-powered tools. Customize fonts and enable accessibility features like color blind modes for an improved, personalized browsing experience.
-Unchaos - Accessibility Chrome Extension
+
 #Features
 Dyslexia Mode: Open Dyslexic font.
 Colorblind Mode: Grayscale/high-contrast filters.
