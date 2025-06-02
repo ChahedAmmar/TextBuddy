@@ -203,8 +203,6 @@ document.getElementById("speech").addEventListener("click", () => {
     });
 });
 
-//5b7bd460474d4ceb8444e860302b695d
-//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
 let simplify= document.getElementById("simplify");
 simplify.addEventListener("click", function () {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
